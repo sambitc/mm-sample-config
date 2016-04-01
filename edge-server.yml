@@ -1,2 +1,8 @@
 server:
   port: 8765
+      
+zuul:
+  ignoredServices: "*"
+  prefix: /api
+  routes:
+    playlist-history: /playlisthistory/**
