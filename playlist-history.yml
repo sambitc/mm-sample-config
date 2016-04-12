@@ -1,2 +1,11 @@
-server:
-  port: 8081
+spring:
+  datasource:
+    platform: mysql
+    url: jdbc:mysql://192.168.11.33:3306/music
+    #url: jdbc:mysql://localhost:3306/music
+    username: root
+    password: mindfire
+  jpa:
+    show-sql: false
+    hibernate:
+      ddl-auto: none
