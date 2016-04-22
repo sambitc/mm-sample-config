@@ -1,7 +1,7 @@
 spring:
   datasource:
     platform: mysql
-    url: jdbc:mysql://${SERVICE_REGISTRY_HOST}:3306/music
+    url: jdbc:mysql://${DB_HOST}:3306/music
     username: root
     password: mindfire
   jpa:
